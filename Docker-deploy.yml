@@ -14,7 +14,7 @@
         name: docker-py
         state: present
     - name: start the container
-      docker_conatinaer:
+      docker_container:
          name: axe
          image: 2222s/axe:V-1
          state: started
